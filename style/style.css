@@ -27,6 +27,22 @@ body{
   max-width: 100%;
 }
 
+#main #summary h1{
+  font-size: 17px;
+  color: hsl(223, 47%, 23%);
+  margin-top: 25px;
+}
+
+#main #summary p{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+#summary{
+  margin: 0 55px;
+  color: hsl(224, 23%, 55%);
+}
+
 #annual-plan{
   background-color: hsl(225, 100%, 98%);
   margin: 0 25px;
@@ -36,8 +52,4 @@ body{
 #annual-plan #music{
   width: auto;
   height: auto;
-}
-
-p{
-  font-size: 16px;
 }
