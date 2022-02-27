@@ -16,43 +16,43 @@ body{
 
 #main{
   background-color: white;
-  width: 275px;
+  width: 18rem;
   margin: 0 auto;
   position: relative;
-  top: -235px;
+  top: -200px;
   text-align: center;
 }
 
-#main #music-girl{
-  max-width: 100%;
-}
-
-#main #summary h1{
+#main h5{
+  font-weight: bold;
   font-size: 17px;
-  color: hsl(223, 47%, 23%);
-  margin-top: 25px;
 }
 
-#main #summary p{
+#main .card-text{
   font-size: 10px;
-  margin-top: 10px;
 }
 
-#summary{
-  margin: 0 50px;
-  color: hsl(224, 23%, 55%);
+.card-body{
+  margin: 0 15px;
 }
 
 #annual-plan{
-  background-color: hsl(225, 100%, 98%);
-  margin: 0 25px 15px;
-  display: flex;
+  font-size: 10px;
+  margin: 25px 0;
 }
 
-#annual-plan #music{
-  width: auto;
-  height: auto;
-  position: relative;
-  top: 18px;
-  margin-left: 5px;
+#annual-plan img{
+  width: 75%;
+  height: 75%;
+}
+
+#annual-plan #info{
+  display: inline-block;
+  line-height: 5%;
+  margin-top: 9px;
+  margin-left: -18px;
+}
+
+#annual-plan #link{
+  margin-top: 15px;
 }
