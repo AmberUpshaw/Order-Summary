@@ -14,8 +14,10 @@
 <body> 
   <img src="images/pattern-background-desktop.svg" alt="..." id="bg-image">
   
-  <div class="card" id="main">
-    <img class="card-img-top" src="images/illustration-hero.svg" alt="Card image cap">
+  <div class="card shadow" id="main">
+    <div>
+      <img class="card-img-top" id="music-girl" src="images/illustration-hero.svg" alt="Card image cap">
+    </div>
     <div class="card-body">
       <h5 class="card-title text-center">Order Summary</h5>
       <p class="card-text">
@@ -27,16 +29,20 @@
             <img src="images/icon-music.svg">
           </div>
           <div class="col" id="info">
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
+            <p id="one">Annual Plan</p>
+            <p id="two">$59.99/year</p>
           </div>
           <div class="col" id="link">
             <a href="#">Change</a>
           </div>
         </div>
       </div>
-      <a href="#" class="btn btn-primary">Proceed to Payment</a>
-      <a href="#" class="btn">Cancel Order</a>
+      <div id="payment">
+        <a href="#" class="btn">Proceed to Payment</a>
+      </div>
+      <div id="continue">
+        <a href="#" class="btn">Cancel Order</a>
+      </div>
     </div>
   </div>
   <footer>

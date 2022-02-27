@@ -21,15 +21,26 @@ body{
   position: relative;
   top: -200px;
   text-align: center;
+  border-radius: 10px;
+}
+
+#main #music-girl{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 #main h5{
   font-weight: bold;
   font-size: 17px;
+  color: hsl(223, 47%, 23%);
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 #main .card-text{
   font-size: 10px;
+  color: hsla(224, 23%, 55%, .8);
+  font-weight: 700;
 }
 
 .card-body{
@@ -39,6 +50,9 @@ body{
 #annual-plan{
   font-size: 10px;
   margin: 25px 0;
+  background-color: hsla(225, 100%, 98%, .8);
+  padding: 10px;
+  border-radius: 8px;
 }
 
 #annual-plan img{
@@ -53,6 +67,41 @@ body{
   margin-left: -18px;
 }
 
+#annual-plan #info #one{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+#annual-plan #info #two{
+  color: hsla(224, 23%, 55%, .8);
+  font-weight: 700;
+}
+
+
 #annual-plan #link{
   margin-top: 15px;
+  color: hsl(245, 75%, 52%);
+}
+
+#payment{
+  background-color: hsla(245, 75%, 52%, .9);
+  border-radius: 8px;
+  box-shadow: 0 8px 10px hsla(224, 23%, 55%, .3);
+}
+
+#payment a{
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+#continue{
+  margin-top: 8px;
+}
+
+#continue a{
+  font-size: 9px;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
 }
