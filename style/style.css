@@ -80,13 +80,16 @@ body{
 
 #annual-plan #link{
   margin-top: 15px;
+  color: hsla(245, 75%, 52%, .8);
+}
+
+#annual-plan #link:hover{
   color: hsl(245, 75%, 52%);
 }
 
 #payment{
   background-color: hsla(245, 75%, 52%, .9);
   border-radius: 8px;
-  box-shadow: 0 8px 10px hsla(224, 23%, 55%, .3);
 }
 
 #payment a{
@@ -94,6 +97,10 @@ body{
   font-size: 10px;
   font-weight: bold;
   padding: 8px 0;
+}
+
+#payment a:hover{
+  box-shadow: 0 8px 10px hsla(224, 23%, 55%, .3);
 }
 
 #continue{
@@ -104,6 +111,10 @@ body{
   font-size: 9px;
   font-weight: bold;
   color: hsl(224, 23%, 55%);
+}
+
+#continue a:hover{
+  color: black;
 }
 
 footer{
